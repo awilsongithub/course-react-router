@@ -1,5 +1,10 @@
 /*
 NOTES
+  use <Link to= instead of <a href=
+  or <NavLink whiches uses :active css 
+  BrowserRouter> renders root <Router> listening for url changes
+  <Route ... components render if path matches
+  render= if need to show component w/ specific props
 
  */
 
@@ -19,9 +24,7 @@ import Teachers from './Teachers';
 
 
 const App = () => (
-  // renders root <Router> listening for url changes
-  // <Route ... components render if path matches
-  // render= if need to show component w/ specific props
+
   <BrowserRouter>
     <div className="container">
       <Header />

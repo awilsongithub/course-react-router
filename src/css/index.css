@@ -1,10 +1,10 @@
-/* ================================= 
+/* =================================
   WEB FONTS
 ==================================== */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
 
-/* ================================= 
+/* =================================
   ELEMENT STYLES
 ==================================== */
 
@@ -64,7 +64,7 @@ button {
   border-color: rgba(0,0,0, .1);
 }
 
-/* ================================= 
+/* =================================
   LAYOUT & PAGE STYLES
 ==================================== */
 
@@ -119,10 +119,11 @@ header {
   transition: .2s;
 }
 .main-nav a:hover,
-.main-nav .active {
+.main-nav a.active {
   color: #fff;
-  background: #3b80d1;
+  background: purple;
 }
+
 
 /* COURSE NAV -------- */
 
@@ -162,11 +163,11 @@ header {
   margin-bottom: .25em;
 }
 
-/* ================================= 
+/* =================================
   MEDIA QUERIES
 ==================================== */
 
-@media (min-width: 0) and (max-width: 768px) { 
+@media (min-width: 0) and (max-width: 768px) {
   body {
     padding-top: .8em;
   }
@@ -216,7 +217,7 @@ header {
   .media > div {
     width: 85.1%;
     margin-left: 1.5em;
-  } 
+  }
   .teacher {
     width: 48.73%;
     margin-bottom: 1.5em;
@@ -249,7 +250,7 @@ header {
   /* COURSE NAV -------- */
   .course-nav {
     float: right;
-  } 
+  }
   .courses h2 {
     float: left;
   }
